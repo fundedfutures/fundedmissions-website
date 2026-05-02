@@ -279,15 +279,6 @@ function Home() {
           />
         </section>
 
-        {/* Stats Bar */}
-        <div className="bg-forest-green text-white py-16 px-[5%]">
-          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
-            <Counter target={200} label="Students Supported" />
-            <Counter target={4000000} label="KES Raised" prefix="" />
-            <Counter target={1} label="Country & Growing" />
-          </div>
-        </div>
-
         {/* Our Mission */}
         <section id="our-mission" className="py-20 md:py-32 px-[5%] bg-[#f7fcfb]">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
@@ -417,21 +408,21 @@ function Home() {
             >
               {[
                 { 
-                  name: "Louis",
-                  age: "13",
-                  story: "Louis is a bright, hardworking, and ambitious boy whose greatest dream is to become a lawyer or engineer. His teachers describe him as obedient, disciplined, and exceptionally talented. Sadly, his future is threatened by his family's harsh economic situation. School fees have become an impossible burden, causing Louis to miss classes frequently.",
-                  image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000&auto=format&fit=crop"
+                  name: "Favour",
+                  age: "12",
+                  story: "Favour is a young, intelligent girl with dreams of becoming a doctor — but those dreams need protecting now before it's too late. Despite everything, Favour consistently tops her class and stays within the top three — but mounting pressure at home threatens to chip away at those marks. keeping her in school is where it starts.",
+                  image: "https://images.unsplash.com/photo-1531123414780-f74242c2b052?q=80&w=1000&auto=format&fit=crop"
                 },
                 { 
-                  name: "Blessing",
-                  age: "10",
-                  story: "Blessing is a quiet, determined girl with a powerful dream — to become a doctor and save lives. She is raised by her elderly grandmother who relies on a small pension to meet both basic needs and school fees. The risk of Blessing being sent home is always present because of a lack of means.",
-                  image: "https://images.unsplash.com/photo-1542810634-71277d95dcbb?q=80&w=1000&auto=format&fit=crop"
+                  name: "Kelvin",
+                  age: "13",
+                  story: "Kelvin has been drawn to wiring and engineering for as long as he can remember. He holds tightly to his dream of becoming an engineer — and right now, that dream needs someone to hold it with him as school fees are mounting and the threat of him being forced to leave school is very real.",
+                  image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1000&auto=format&fit=crop"
                 },
                 { 
-                  name: "Yusuf",
-                  age: "13",
-                  story: "When Yusuf was born, his mother faced everything alone — rent to find, food to put on the table. Yusuf has grown up in the middle of that struggle, but somehow, he still dreams. He loves science and wants to be an engineer one day. Each unpaid balance puts his education at risk.",
+                  name: "Raynor",
+                  age: "5",
+                  story: "Raynor is currently out of school due to fee arrears. He is five years old and already facing a closed door. Raynor deserves a real shot at the future he was born to have — and school fees are the one bump in the road you can help him cross.",
                   image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1000&auto=format&fit=crop"
                 }
               ].map((item, idx) => (
@@ -600,8 +591,17 @@ function Home() {
             <div>
               <h4 className="text-forest-green uppercase tracking-widest text-sm font-bold mb-6">Newsletter</h4>
               <p className="opacity-70 text-sm mb-4">Stay updated with our latest student success stories.</p>
-              <form className="flex gap-2" onSubmit={(e) => { e.preventDefault(); alert('Thank you for subscribing!'); }}>
+              <form 
+                className="flex gap-2" 
+                onSubmit={(e) => { 
+                  e.preventDefault(); 
+                  const email = (e.currentTarget.elements.namedItem('footer-email') as HTMLInputElement).value;
+                  navigate('/subscribe', { state: { email } });
+                }}
+              >
                 <input 
+                  id="footer-email"
+                  name="footer-email"
                   type="email" 
                   placeholder="Email address" 
                   className="bg-white/5 border border-white/10 rounded-full px-4 py-2 text-sm focus:outline-none focus:border-forest-green w-full"

@@ -6,68 +6,52 @@ import { Button, Card } from '../components/UI';
 
 const stories = [
   {
-    name: "Louis",
-    age: 13,
-    grade: "Grade 7",
-    location: "Kangemi",
-    story: "Louis is a bright, hardworking, and ambitious boy whose greatest dream is to become a lawyer or engineer. His teachers describe him as obedient, disciplined, and exceptionally talented. Sadly, his future is threatened by his family's harsh economic situation. His father works as a mechanic while his mother takes on small hustles, yet they still struggle to afford balanced meals and a suitable study environment. School fees have become an impossible burden, causing Louis to miss classes frequently. With support, Louis can remain in school and turn his dreams into reality.",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
-    name: "Blessing",
-    age: 10,
-    grade: "Grade 5",
-    location: "Kangemi",
-    story: "Blessing is a quiet, determined girl with a powerful dream — to become a doctor and save lives. She is raised by her elderly grandmother who relies on a small pension to meet both basic needs and school fees. Her mother struggles to find steady work, while her father has been largely absent. School fees remain a constant struggle, and the risk of Blessing being sent home is always present. It is heartbreaking that her dream could fade not because of a lack of ability, but because of a lack of means.",
-    image: "https://images.unsplash.com/photo-1542810634-71277d95dcbb?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
-    name: "Yusuf",
-    age: 13,
-    grade: "Grade 8",
-    location: "Kangemi",
-    story: "When Yusuf was born, his mother faced everything alone — rent to find, food to put on the table, and a child who depended on her for everything. Yusuf has grown up in the middle of that struggle, but somehow, he still dreams. He loves science and wants to be an engineer one day. School fees are a constant burden, and each unpaid balance puts his education at risk. His mother is doing everything she can, but she cannot do it alone.",
-    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
-    name: "Lydia",
-    age: 15,
-    grade: "Grade 10",
-    location: "Uthiru",
-    story: "Lydia lives with her mother and siblings in a home built on sacrifice. Her father left when she was just one year old, and her mother has worked odd jobs ever since to keep the family going. More than once, Lydia has been turned away at the school gate and told not to return until fees are cleared. Yet she holds onto a dream of becoming a fashion designer or chef. In a life that has given her very little certainty, her dreams remain stubbornly, tenderly her own.",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
-    name: "Branice",
-    age: 13,
-    grade: "Grade 8",
-    location: "Kangemi",
-    story: "Branice has already made a decision no child should have to make. She has quietly decided to step aside and sacrifice her own education so her younger brother can have a chance. Her parents hustle daily but there are days the family goes to bed hungry. At school, on the days she was allowed in, teachers seated her apart from other students as a visible mark of her unpaid debt — letting her be present in the room but making her feel she did not fully belong. With support, Branice can reclaim her own future.",
-    image: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
-    name: "Mark",
-    age: 13,
-    grade: "Grade 7",
-    location: "Kangemi",
-    story: "Mark dreams of becoming a pilot — a goal he pursues with focus and determination. Recently, that progress was interrupted when he was sent home due to unpaid school fees. His mother carries the full weight of the household as his father remains without work. Each time Mark is sent home, it chips away at his confidence. His situation is not about a lack of potential — it is about a lack of opportunity.",
-    image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
     name: "Favour",
     age: 12,
     grade: "Grade 7",
-    location: "Kangemi",
-    story: "Favour frequently tops her class and consistently stays within the top three students. She dreams of becoming a doctor. She stays with her mother as her father abandons the family and contributes nothing. Her family has seen bright talent lost before — her brother was highly intelligent but could not attend university due to lack of fees. Despite all of this, Favour keeps pushing. She deserves the chance to become the doctor she dreams of being.",
+    location: "New Kihumbuini, Kangemi",
+    story: "Favour is a young, intelligent girl with dreams of becoming a doctor — but those dreams need protecting now before it's too late. She lives with her mother, as her father frequently abandons the family and contributes nothing. Despite everything, Favour consistently tops her class and stays within the top three — but mounting pressure at home threatens to chip away at those marks. Her mother still carries the added burden of supporting an elderly grandmother whose own sons have walked away. Favour deserves the chance to become the doctor she is capable of being, and right now, keeping her in school is where it starts.",
     image: "https://images.unsplash.com/photo-1531123414780-f74242c2b052?q=80&w=1000&auto=format&fit=crop"
   },
   {
     name: "Kelvin",
     age: 13,
     grade: "Grade 8",
-    location: "Kangemi",
-    story: "Kelvin is gifted, curious, and drawn to wiring and engineering from a young age. He grew up in a broken home where his mother tried to shield him from his father's struggles with alcoholism. She passed away, leaving Kelvin without the one person who had always stood between him and the chaos. His aunt stepped in as guardian, doing what she can with limited resources. Despite everything, Kelvin holds tightly to his dream of becoming an engineer — but mounting school fee debt means that dream is slipping away.",
+    location: "New Kihumbuini, Kangemi",
+    story: "Kelvin has been drawn to wiring and engineering for as long as he can remember. He is gifted and curious — but his life has been shaped by loss from the very beginning. His mother, who shielded him from his father's alcoholism, passed away, leaving him with his aunt as guardian while his father retreated to the countryside. His aunt does what she can, but school fees are mounting and the threat of Kelvin being forced to leave school is very real. He holds tightly to his dream of becoming an engineer — and right now, that dream needs someone to hold it with him.",
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    name: "Raynor",
+    age: 5,
+    grade: "PP2",
+    location: "Joy Beginners, Kangemi",
+    story: "Raynor's father walked away when he was just two years old, leaving his mother — a hairdresser — to support both Raynor and an aging grandmother with bone problems that require ongoing medical costs. Raynor is currently out of school due to fee arrears. He loves football and swimming, but he always feels left out when it's time for school. He is five years old and already facing a closed door. Raynor deserves a real shot at the future he was born to have — and school fees are the one bump in the road you can help him cross.",
+    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    name: "Levinah",
+    age: 13,
+    grade: "Grade 7",
+    location: "Loresho Primary, Kangemi",
+    story: "Levinah lost her mother when she was young, and her father was never part of her life. A guardian with no obligation chose to take in Levinah and her two siblings — an act of extraordinary kindness. He works at a post office, doing his best to support three children who are not his own, but his income cannot keep pace with rent, food, and school fees. Levinah has been sent home more than once for unpaid fees, still fighting to hold her place in Grade 7. She did not choose any of this — yet she keeps showing up.",
+    image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    name: "Adrian",
+    age: 9,
+    grade: "Grade 3",
+    location: "Hillstar, Kangemi",
+    story: "Adrian is a young footballer with a dream to chase and the ambition to back it up. Inspired by his older brother and his father, he has been passionate about football from a young age — but he has never been given the environment or opportunity to let that talent be seen. He doesn't have a conducive place to study or reliable food to keep his body strong. Every child deserves the chance to fully chase their dreams, and for Adrian, the barrier standing in the way right now is school fees.",
+    image: "https://images.unsplash.com/photo-1524230507669-5ff97982bb5e?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    name: "Fidel",
+    age: 14,
+    grade: "Grade 7",
+    location: "New Kihumbuini, Kangemi",
+    story: "Fidel shares his younger brother Adrian's passion for football and his father's spirit. He dreams of becoming a professional footballer, but like Adrian, the opportunities to show the world what he can do have not come — because the problems at home are louder than his goals. Without a conducive study environment, without reliable meals, and with school fees as a constant threat, Fidel's future is being quietly squeezed. He has the ambition. What he needs is the chance.",
+    image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=1000&auto=format&fit=crop"
   }
 ];
 

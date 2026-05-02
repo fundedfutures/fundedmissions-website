@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ArrowLeft, Check, X } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Button } from '../components/UI';
 
 const countries = [
@@ -19,6 +19,7 @@ export default function Subscribe() {
   const [submitted, setSubmitted] = useState(false);
   const [selectAll, setSelectAll] = useState(false);
   const [preferences, setPreferences] = useState<string[]>([]);
+  const location = useLocation();
   
   // Form State
   const [formData, setFormData] = useState({
@@ -34,7 +35,12 @@ export default function Subscribe() {
   
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+    
+    // Check for email passed in state from homepage
+    if (location.state?.email) {
+      setFormData(prev => ({ ...prev, email: location.state.email }));
+    }
+  }, [location.state]);
 
   const toggleAll = () => {
     if (selectAll) {
