@@ -68,7 +68,7 @@ export default function HowItWorks_Identify() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-[3rem] overflow-hidden relative z-10">
               <img 
-                src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1000&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1541976844346-f18aeac57b06?q=80&w=1000&auto=format&fit=crop" 
                 alt="Community identification" 
                 className="w-full h-full object-cover"
               />

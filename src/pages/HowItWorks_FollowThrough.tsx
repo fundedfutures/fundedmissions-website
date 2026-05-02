@@ -89,11 +89,8 @@ export default function HowItWorks_FollowThrough() {
               </div>
               <h3 className="text-3xl font-display font-bold">A Promise Kept</h3>
               <p className="text-lg opacity-80 italic leading-relaxed">
-                "When I was first turned away at the gate, I thought my journey was over. FundED Futures didn't just pay my fees; they stayed until I graduated. Today, I am studying to be a nurse."
+                "Our commitment to every student is a promise that stays with them until they reach their full potential. We don't just provide funding; we provide a community that walks alongside every child on their journey."
               </p>
-              <div className="pt-4">
-                <p className="font-bold text-sm tracking-widest uppercase">— Sarah, Former Beneficiary</p>
-              </div>
             </motion.div>
           </div>
         </div>

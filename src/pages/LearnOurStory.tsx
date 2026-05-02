@@ -63,7 +63,7 @@ export default function LearnOurStory() {
           {/* Visual Divider */}
           <div className="aspect-video rounded-[3rem] overflow-hidden border border-gray-100">
             <img 
-              src="https://images.unsplash.com/photo-1503676382389-4809596d5290?q=80&w=2070&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1577891729319-667ed3ec421e?q=80&w=2070&auto=format&fit=crop" 
               alt="Student focused on study" 
               className="w-full h-full object-cover"
             />
@@ -100,7 +100,7 @@ export default function LearnOurStory() {
             <div className="aspect-[4/5] bg-frosted-blue/20 rounded-[3rem] p-4">
               <div className="w-full h-full bg-white rounded-[2.5rem] overflow-hidden border border-white">
                 <img 
-                   src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=2070&auto=format&fit=crop" 
+                   src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2070&auto=format&fit=crop" 
                    alt="Mission in action" 
                    className="w-full h-full object-cover"
                 />

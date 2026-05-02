@@ -21,55 +21,55 @@ const impactAreas = [
     title: "Access to Education",
     description: "Expanding access to education for marginalized children across all partner countries.",
     icon: <Globe size={32} />,
-    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2022&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1542810634-71277d95dcbb?q=80&w=2022&auto=format&fit=crop"
   },
   {
     title: "Early Learning",
     description: "Supporting countries to improve access and quality learning for all children in the early years.",
     icon: <Baby size={32} />,
-    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1972&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1510563800743-a923139a11ac?q=80&w=1972&auto=format&fit=crop"
   },
   {
     title: "Gender Equality",
     description: "Committed to ensuring all girls and boys have the same opportunities for education.",
     icon: <Users size={32} />,
-    image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1589184451000-84a144de5f6e?q=80&w=2069&auto=format&fit=crop"
   },
   {
     title: "Inclusive Education",
     description: "Making education more accessible and free of discrimination so that no child is left behind.",
     icon: <Scale size={32} />,
-    image: "https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?q=80&w=2070&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2070&auto=format&fit=crop"
   },
   {
     title: "Learning",
     description: "Helping millions more children learn the essential skills they need to thrive in the 21st century.",
     icon: <BookOpen size={32} />,
-    image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=2073&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1547408713-3566f1165e64?q=80&w=2073&auto=format&fit=crop"
   },
   {
     title: "Peace and Security",
     description: "Quality education for all is one of the best investments to counter political, economic and displacement risks.",
     icon: <ShieldCheck size={32} />,
-    image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2064&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1489710437720-ebb67bc84dd2?q=80&w=2064&auto=format&fit=crop"
   },
   {
     title: "Quality Teaching",
     description: "Investing in quality teachers and teaching to improve student learning.",
     icon: <UserCheck size={32} />,
-    image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1531548731165-c6ae86ff6491?q=80&w=2070&auto=format&fit=crop"
   },
   {
     title: "Safe Learning",
     description: "Addressing violence in and around schools that affects children's learning, safety, and school attendance worldwide.",
     icon: <HandMetal size={32} />,
-    image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=2070&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1621236304192-38378b88bc04?q=80&w=2070&auto=format&fit=crop"
   },
   {
     title: "Skills for Jobs",
     description: "Children need skills including creativity, problem-solving and collaboration to develop fully and enter the modern workforce.",
     icon: <Briefcase size={32} />,
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=2071&auto=format&fit=crop"
   }
 ];
 
