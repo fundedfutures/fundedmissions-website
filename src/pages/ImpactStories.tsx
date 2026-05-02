@@ -10,7 +10,7 @@ const stories = [
     age: 12,
     grade: "Grade 7",
     location: "New Kihumbuini, Kangemi",
-    story: "Favour is a young, intelligent girl with dreams of becoming a doctor — but those dreams need protecting now before it's too late. She lives with her mother, as her father frequently abandons the family and contributes nothing. Despite everything, Favour consistently tops her class and stays within the top three — but mounting pressure at home threatens to chip away at those marks. Her mother still carries the added burden of supporting an elderly grandmother whose own sons have walked away. Favour deserves the chance to become the doctor she is capable of being, and right now, keeping her in school is where it starts.",
+    story: "Favour is a young, intelligent girl with dreams of becoming a doctor, but those dreams need protecting now before it's too late. She lives with her mother, as her father frequently abandons the family and contributes nothing. Despite everything, Favour consistently tops her class and stays within the top three, but mounting pressure at home threatens to chip away at those marks. Her mother still carries the added burden of supporting an elderly grandmother whose own sons have walked away. Favour deserves the chance to become the doctor she is capable of being, and right now, keeping her in school is where it starts.",
     image: "https://images.unsplash.com/photo-1531123414780-f74242c2b052?q=80&w=1000&auto=format&fit=crop"
   },
   {
@@ -18,7 +18,7 @@ const stories = [
     age: 13,
     grade: "Grade 8",
     location: "New Kihumbuini, Kangemi",
-    story: "Kelvin has been drawn to wiring and engineering for as long as he can remember. He is gifted and curious — but his life has been shaped by loss from the very beginning. His mother, who shielded him from his father's alcoholism, passed away, leaving him with his aunt as guardian while his father retreated to the countryside. His aunt does what she can, but school fees are mounting and the threat of Kelvin being forced to leave school is very real. He holds tightly to his dream of becoming an engineer — and right now, that dream needs someone to hold it with him.",
+    story: "Kelvin has been drawn to wiring and engineering for as long as he can remember. He is gifted and curious, but his life has been shaped by loss from the very beginning. His mother, who shielded him from his father's alcoholism, passed away, leaving him with his aunt as guardian while his father retreated to the countryside. His aunt does what she can, but school fees are mounting and the threat of Kelvin being forced to leave school is very real. He holds tightly to his dream of becoming an engineer, and right now, that dream needs someone to hold it with him.",
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1000&auto=format&fit=crop"
   },
   {
@@ -26,7 +26,7 @@ const stories = [
     age: 5,
     grade: "PP2",
     location: "Joy Beginners, Kangemi",
-    story: "Raynor's father walked away when he was just two years old, leaving his mother — a hairdresser — to support both Raynor and an aging grandmother with bone problems that require ongoing medical costs. Raynor is currently out of school due to fee arrears. He loves football and swimming, but he always feels left out when it's time for school. He is five years old and already facing a closed door. Raynor deserves a real shot at the future he was born to have — and school fees are the one bump in the road you can help him cross.",
+    story: "Raynor's father walked away when he was just two years old, leaving his mother, a hairdresser, to support both Raynor and an aging grandmother with bone problems that require ongoing medical costs. Raynor is currently out of school due to fee arrears. He loves football and swimming, but he always feels left out when it's time for school. He is five years old and already facing a closed door. Raynor deserves a real shot at the future he was born to have, and school fees are the one bump in the road you can help him cross.",
     image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1000&auto=format&fit=crop"
   },
   {
@@ -34,7 +34,7 @@ const stories = [
     age: 13,
     grade: "Grade 7",
     location: "Loresho Primary, Kangemi",
-    story: "Levinah lost her mother when she was young, and her father was never part of her life. A guardian with no obligation chose to take in Levinah and her two siblings — an act of extraordinary kindness. He works at a post office, doing his best to support three children who are not his own, but his income cannot keep pace with rent, food, and school fees. Levinah has been sent home more than once for unpaid fees, still fighting to hold her place in Grade 7. She did not choose any of this — yet she keeps showing up.",
+    story: "Levinah lost her mother when she was young, and her father was never part of her life. A guardian with no obligation chose to take in Levinah and her two siblings, an act of extraordinary kindness. He works at a post office, doing his best to support three children who are not his own, but his income cannot keep pace with rent, food, and school fees. Levinah has been sent home more than once for unpaid fees, still fighting to hold her place in Grade 7. She did not choose any of this, yet she keeps showing up.",
     image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=1000&auto=format&fit=crop"
   },
   {
@@ -42,7 +42,7 @@ const stories = [
     age: 9,
     grade: "Grade 3",
     location: "Hillstar, Kangemi",
-    story: "Adrian is a young footballer with a dream to chase and the ambition to back it up. Inspired by his older brother and his father, he has been passionate about football from a young age — but he has never been given the environment or opportunity to let that talent be seen. He doesn't have a conducive place to study or reliable food to keep his body strong. Every child deserves the chance to fully chase their dreams, and for Adrian, the barrier standing in the way right now is school fees.",
+    story: "Adrian is a young footballer with a dream to chase and the ambition to back it up. Inspired by his older brother and his father, he has been passionate about football from a young age, but he has never been given the environment or opportunity to let that talent be seen. He doesn't have a conducive place to study or reliable food to keep his body strong. Every child deserves the chance to fully chase their dreams, and for Adrian, the barrier standing in the way right now is school fees.",
     image: "https://images.unsplash.com/photo-1524230507669-5ff97982bb5e?q=80&w=1000&auto=format&fit=crop"
   },
   {
@@ -50,7 +50,7 @@ const stories = [
     age: 14,
     grade: "Grade 7",
     location: "New Kihumbuini, Kangemi",
-    story: "Fidel shares his younger brother Adrian's passion for football and his father's spirit. He dreams of becoming a professional footballer, but like Adrian, the opportunities to show the world what he can do have not come — because the problems at home are louder than his goals. Without a conducive study environment, without reliable meals, and with school fees as a constant threat, Fidel's future is being quietly squeezed. He has the ambition. What he needs is the chance.",
+    story: "Fidel shares his younger brother Adrian's passion for football and his father's spirit. He dreams of becoming a professional footballer, but like Adrian, the opportunities to show the world what he can do have not come because the problems at home are louder than his goals. Without a conducive study environment, without reliable meals, and with school fees as a constant threat, Fidel's future is being quietly squeezed. He has the ambition. What he needs is the chance.",
     image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=1000&auto=format&fit=crop"
   }
 ];

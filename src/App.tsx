@@ -410,19 +410,19 @@ function Home() {
                 { 
                   name: "Favour",
                   age: "12",
-                  story: "Favour is a young, intelligent girl with dreams of becoming a doctor — but those dreams need protecting now before it's too late. Despite everything, Favour consistently tops her class and stays within the top three — but mounting pressure at home threatens to chip away at those marks. keeping her in school is where it starts.",
+                  story: "Favour is a young, intelligent girl with dreams of becoming a doctor, but those dreams need protecting now before it's too late. Despite everything, Favour consistently tops her class and stays within the top three, but mounting pressure at home threatens to chip away at those marks. keeping her in school is where it starts.",
                   image: "https://images.unsplash.com/photo-1531123414780-f74242c2b052?q=80&w=1000&auto=format&fit=crop"
                 },
                 { 
                   name: "Kelvin",
                   age: "13",
-                  story: "Kelvin has been drawn to wiring and engineering for as long as he can remember. He holds tightly to his dream of becoming an engineer — and right now, that dream needs someone to hold it with him as school fees are mounting and the threat of him being forced to leave school is very real.",
+                  story: "Kelvin has been drawn to wiring and engineering for as long as he can remember. He holds tightly to his dream of becoming an engineer, and right now, that dream needs someone to hold it with him as school fees are mounting and the threat of him being forced to leave school is very real.",
                   image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1000&auto=format&fit=crop"
                 },
                 { 
                   name: "Raynor",
                   age: "5",
-                  story: "Raynor is currently out of school due to fee arrears. He is five years old and already facing a closed door. Raynor deserves a real shot at the future he was born to have — and school fees are the one bump in the road you can help him cross.",
+                  story: "Raynor is currently out of school due to fee arrears. He is five years old and already facing a closed door. Raynor deserves a real shot at the future he was born to have, and school fees are the one bump in the road you can help him cross.",
                   image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1000&auto=format&fit=crop"
                 }
               ].map((item, idx) => (
