@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", serif;
+  --font-body: "DM Sans", sans-serif;
+
+  --color-forest-green: #008F1D;
+  --color-snow: #FFFBFE;
+  --color-frosted-blue: #A8D8EA;
+  --color-deep-slate: #2C3E50;
+  --color-soft-gold: #F5C842;
+  --color-muted-text: #718096;
+  --color-off-white: #F1F5F8;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-body bg-snow text-deep-slate antialiased overflow-x-hidden;
+    font-size: 16px;
+  }
+
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-display font-semibold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .transition-smooth {
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  .accent-line {
+    @apply w-[60px] h-[1px] bg-forest-green mb-5;
+  }
+}
