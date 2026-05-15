@@ -304,8 +304,8 @@ export default function Donate() {
     
     if (methodId === 'mpesa') {
       // Attempt M-Pesa deep link (simulated for common patterns)
-      const businessNo = "522522";
-      const accountNo = "1351769820";
+      const businessNo = "303030";
+      const accountNo = "UGC9#fundedfutures";
       const mpesaUrl = `mpesa://paybill?business=${businessNo}&account=${accountNo}&amount=${amount}`;
       
       // We try to open the app, but immediately show instructions as a fallback
