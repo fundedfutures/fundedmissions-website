@@ -171,8 +171,8 @@ const InstructionModal = ({ isOpen, onClose, method, amount, currency }: any) =>
     setTimeout(() => setCopiedField(null), 2000);
   };
 
-  const businessNo = "522522";
-  const accountNo = "1351769820";
+  const businessNo = "303030";
+  const accountNo = "UGC9#fundedfutures";
 
   return (
     <AnimatePresence>
