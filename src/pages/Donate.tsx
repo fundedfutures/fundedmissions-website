@@ -20,7 +20,7 @@ const PAYMENT_METHODS = [
     id: 'mpesa', 
     name: 'M-PESA Paybill', 
     label: 'M-PESA',
-    description: 'Pay via Business No. 522522 — Acc: 1351769820'
+    description: 'Pay via Business No. 303030 — Acc: UGC9#fundedfutures'
   }
 ];
 
