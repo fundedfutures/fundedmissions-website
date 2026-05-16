@@ -27,7 +27,7 @@ const stories = [
     grade: "PP2",
     location: "Joy Beginners, Kangemi",
     story: "Raynor's father walked away when he was just two years old, leaving his mother, a hairdresser, to support both Raynor and an aging grandmother with bone problems that require ongoing medical costs. Raynor is currently out of school due to fee arrears. He loves football and swimming, but he always feels left out when it's time for school. He is five years old and already facing a closed door. Raynor deserves a real shot at the future he was born to have, and school fees are the one bump in the road you can help him cross.",
-    image: "https://i.imgur.com/rdq03yl.jpeg"
+    image: "https://i.imgur.com/eugm70o.jpeg"
   },
   {
     name: "Levinah",
