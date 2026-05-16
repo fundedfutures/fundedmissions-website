@@ -411,7 +411,7 @@ function Home() {
                   name: "Favour",
                   age: "12",
                   story: "Favour is a young, intelligent girl with dreams of becoming a doctor, but those dreams need protecting now before it's too late. Despite everything, Favour consistently tops her class and stays within the top three, but mounting pressure at home threatens to chip away at those marks. keeping her in school is where it starts.",
-                  image: "https://i.imgur.com/ofcYaI7.jpeg"
+                  image: "https://i.imgur.com/mCCRmmY.jpeg"
                 },
                 { 
                   name: "Kelvin",
@@ -423,7 +423,7 @@ function Home() {
                   name: "Raynor",
                   age: "5",
                   story: "Raynor is currently out of school due to fee arrears. He is five years old and already facing a closed door. Raynor deserves a real shot at the future he was born to have, and school fees are the one bump in the road you can help him cross.",
-                  image: "https://i.imgur.com/rdq03yl.jpeg"
+                  image: "https://i.imgur.com/eugm70o.jpeg"
                 }
               ].map((item, idx) => (
                 <Card 
