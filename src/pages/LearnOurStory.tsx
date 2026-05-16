@@ -13,7 +13,7 @@ export default function LearnOurStory() {
       <section className="relative min-h-[70vh] flex items-center justify-center bg-forest-green text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/20 z-10" />
         <img 
-          src="https://i.imgur.com/c2tmG1v.jpeg" 
+          src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2070&auto=format&fit=crop" 
           alt="School children in Kenya" 
           className="absolute inset-0 w-full h-full object-cover opacity-60 scale-105"
         />
