@@ -43,7 +43,7 @@ const stories = [
     grade: "Grade 3",
     location: "Hillstar, Kangemi",
     story: "Adrian is a young footballer with a dream to chase and the ambition to back it up. Inspired by his older brother and his father, he has been passionate about football from a young age, but he has never been given the environment or opportunity to let that talent be seen. He doesn't have a conducive place to study or reliable food to keep his body strong. Every child deserves the chance to fully chase their dreams, and for Adrian, the barrier standing in the way right now is school fees.",
-    image: "https://i.imgur.com/0mrXsCw.jpeg"
+    image: "https://i.imgur.com/csYrt0d.jpeg"
   },
   {
     name: "Hope",
@@ -51,7 +51,7 @@ const stories = [
     grade: "Form 3",
     location: "Kangemi",
     story: "Hope ~At sixteen, Hope carries a weight that would break most adults, navigating a life that has been stripped of its foundation in a devastatingly short time. After the consecutive losses of his father and brother, his family's remaining stability vanished when his mother lost her employment, leaving him stuck at home and unable to attend Form 3 due to unpaid school fees. Despite the profound psychological toll of his grief and the precarious nature of his living conditions, Hope's intellectual light remains undimmed; he recently ranked 7th out of 49 students, a testament to his resilience in the face of absolute hardship. Referred to us by a neighbor who understands the sting of poverty, Hope is driven by a singular, selfless ambition: to master the world of IT so he can become the provider his family so desperately needs. He is a young man of immense potential standing at a crossroads, needing only the bridge of financial support to turn his academic brilliance into a career that can lift his mother out of despair.",
-    image: "https://i.imgur.com/R1l5tEH.jpeg"
+    image: "https://i.imgur.com/mCCRmmY.jpeg"
   }
 ];
 
