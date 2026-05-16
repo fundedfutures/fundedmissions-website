@@ -11,7 +11,7 @@ const stories = [
     grade: "Grade 7",
     location: "New Kihumbuini, Kangemi",
     story: "Favour is a young, intelligent girl with dreams of becoming a doctor, but those dreams need protecting now before it's too late. She lives with her mother, as her father frequently abandons the family and contributes nothing. Despite everything, Favour consistently tops her class and stays within the top three, but mounting pressure at home threatens to chip away at those marks. Her mother still carries the added burden of supporting an elderly grandmother whose own sons have walked away. Favour deserves the chance to become the doctor she is capable of being, and right now, keeping her in school is where it starts.",
-    image: "https://images.unsplash.com/photo-1541250357597-9195b0983229?q=80&w=1000&auto=format&fit=crop"
+    image: "/Favour.webp.webp"
   },
   {
     name: "Kelvin",
@@ -19,7 +19,7 @@ const stories = [
     grade: "Grade 8",
     location: "New Kihumbuini, Kangemi",
     story: "Kelvin has been drawn to wiring and engineering for as long as he can remember. He is gifted and curious, but his life has been shaped by loss from the very beginning. His mother, who shielded him from his father's alcoholism, passed away, leaving him with his aunt as guardian while his father retreated to the countryside. His aunt does what she can, but school fees are mounting and the threat of Kelvin being forced to leave school is very real. He holds tightly to his dream of becoming an engineer, and right now, that dream needs someone to hold it with him.",
-    image: "https://images.unsplash.com/photo-1510563800743-a923139a11ac?q=80&w=1000&auto=format&fit=crop"
+    image: "/Kelvin.jpg.jpg"
   },
   {
     name: "Raynor",
@@ -27,7 +27,7 @@ const stories = [
     grade: "PP2",
     location: "Joy Beginners, Kangemi",
     story: "Raynor's father walked away when he was just two years old, leaving his mother, a hairdresser, to support both Raynor and an aging grandmother with bone problems that require ongoing medical costs. Raynor is currently out of school due to fee arrears. He loves football and swimming, but he always feels left out when it's time for school. He is five years old and already facing a closed door. Raynor deserves a real shot at the future he was born to have, and school fees are the one bump in the road you can help him cross.",
-    image: "https://images.unsplash.com/photo-1547408713-3566f1165e64?q=80&w=1000&auto=format&fit=crop"
+    image: "/Raynnor.avif.avif"
   },
   {
     name: "Levinah",
@@ -35,7 +35,7 @@ const stories = [
     grade: "Grade 7",
     location: "Loresho Primary, Kangemi",
     story: "Levinah lost her mother when she was young, and her father was never part of her life. A guardian with no obligation chose to take in Levinah and her two siblings, an act of extraordinary kindness. He works at a post office, doing his best to support three children who are not his own, but his income cannot keep pace with rent, food, and school fees. Levinah has been sent home more than once for unpaid fees, still fighting to hold her place in Grade 7. She did not choose any of this, yet she keeps showing up.",
-    image: "https://images.unsplash.com/photo-1489710437720-ebb67bc84dd2?q=80&w=1000&auto=format&fit=crop"
+    image: "/Levinah.jpg.jpg"
   },
   {
     name: "Adrian",
@@ -43,7 +43,7 @@ const stories = [
     grade: "Grade 3",
     location: "Hillstar, Kangemi",
     story: "Adrian is a young footballer with a dream to chase and the ambition to back it up. Inspired by his older brother and his father, he has been passionate about football from a young age, but he has never been given the environment or opportunity to let that talent be seen. He doesn't have a conducive place to study or reliable food to keep his body strong. Every child deserves the chance to fully chase their dreams, and for Adrian, the barrier standing in the way right now is school fees.",
-    image: "https://images.unsplash.com/photo-1526232312623-286fa84f1740?q=80&w=1000&auto=format&fit=crop"
+    image: "/Adrian.jpg.jpg"
   },
   {
     name: "Hope",
@@ -51,7 +51,7 @@ const stories = [
     grade: "Form 3",
     location: "Kangemi",
     story: "Hope ~At sixteen, Hope carries a weight that would break most adults, navigating a life that has been stripped of its foundation in a devastatingly short time. After the consecutive losses of his father and brother, his family's remaining stability vanished when his mother lost her employment, leaving him stuck at home and unable to attend Form 3 due to unpaid school fees. Despite the profound psychological toll of his grief and the precarious nature of his living conditions, Hope's intellectual light remains undimmed; he recently ranked 7th out of 49 students, a testament to his resilience in the face of absolute hardship. Referred to us by a neighbor who understands the sting of poverty, Hope is driven by a singular, selfless ambition: to master the world of IT so he can become the provider his family so desperately needs. He is a young man of immense potential standing at a crossroads, needing only the bridge of financial support to turn his academic brilliance into a career that can lift his mother out of despair.",
-    image: "https://images.unsplash.com/photo-1549413240-0255a05b38ed?q=80&w=1000&auto=format&fit=crop"
+    image: "/Hope.jpg.jpg"
   }
 ];
 
