@@ -290,7 +290,7 @@ function Home() {
               className="relative aspect-square md:aspect-[4/5] rounded-3xl overflow-hidden border border-gray-100 order-2 md:order-1"
             >
               <img 
-                src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2070&auto=format&fit=crop" 
+                src="https://i.imgur.com/Tbf2Ntr.jpeg" 
                 alt="Community context" 
                 className="w-full h-full object-cover hover:scale-105 transition-smooth duration-1000"
                 referrerPolicy="no-referrer"
