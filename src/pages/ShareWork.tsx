@@ -9,14 +9,14 @@ const SHARE_ASSETS = [
     id: 1,
     title: "Education is a Right",
     description: "A series of visuals for Instagram & Snapchat stories.",
-    image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=600&auto=format&fit=crop",
+    image: "https://i.imgur.com/I1yj9CJ.jpeg",
     platforms: ["Instagram", "Snapchat"]
   },
   {
     id: 3,
     title: "Student Stories Loop",
     description: "Short vertical video frames for TikTok & Reels.",
-    image: "https://images.unsplash.com/photo-1524069290683-0457abfe42c3?q=80&w=600&auto=format&fit=crop",
+    image: "https://i.imgur.com/2ZF1CuH.jpeg",
     platforms: ["TikTok", "Reels"]
   }
 ];
