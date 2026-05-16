@@ -63,7 +63,7 @@ export default function LearnOurStory() {
           {/* Visual Divider */}
           <div className="aspect-video rounded-[3rem] overflow-hidden border border-gray-100">
             <img 
-              src="https://images.unsplash.com/photo-1577891729319-667ed3ec421e?q=80&w=2070&auto=format&fit=crop" 
+              src="https://i.imgur.com/I1yj9CJ.jpeg" 
               alt="Student focused on study" 
               className="w-full h-full object-cover"
             />
