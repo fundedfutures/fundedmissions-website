@@ -13,7 +13,7 @@ export default function LearnOurStory() {
       <section className="relative min-h-[70vh] flex items-center justify-center bg-forest-green text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/20 z-10" />
         <img 
-          src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2070&auto=format&fit=crop" 
+          src="https://i.imgur.com/c2tmG1v.jpeg" 
           alt="School children in Kenya" 
           className="absolute inset-0 w-full h-full object-cover opacity-60 scale-105"
         />
@@ -100,7 +100,7 @@ export default function LearnOurStory() {
             <div className="aspect-[4/5] bg-frosted-blue/20 rounded-[3rem] p-4">
               <div className="w-full h-full bg-white rounded-[2.5rem] overflow-hidden border border-white">
                 <img 
-                   src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2070&auto=format&fit=crop" 
+                   src="https://i.imgur.com/7cpCsAt.jpeg" 
                    alt="Mission in action" 
                    className="w-full h-full object-cover"
                 />
