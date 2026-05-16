@@ -19,7 +19,7 @@ const stories = [
     grade: "Grade 8",
     location: "New Kihumbuini, Kangemi",
     story: "Kelvin has been drawn to wiring and engineering for as long as he can remember. He is gifted and curious, but his life has been shaped by loss from the very beginning. His mother, who shielded him from his father's alcoholism, passed away, leaving him with his aunt as guardian while his father retreated to the countryside. His aunt does what she can, but school fees are mounting and the threat of Kelvin being forced to leave school is very real. He holds tightly to his dream of becoming an engineer, and right now, that dream needs someone to hold it with him.",
-    image: "https://i.imgur.com/J2wiqwH.jpeg"
+    image: "https://i.imgur.com/bUhHr0O.jpeg"
   },
   {
     name: "Raynor",
