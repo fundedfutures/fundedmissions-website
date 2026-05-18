@@ -104,7 +104,41 @@ export default function Volunteer() {
 
     if (!newErrors.name && !newErrors.email && !newErrors.phone && !newErrors.birthDate) {
       setSubmitted(true);
-      // Simulate API call
+      const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault();
+  
+  const newErrors = {
+    name: formData.name.trim() === '' ? 'This field is invalid' : '',
+    email: !validateEmail(formData.email) ? 'This field is invalid' : '',
+    phone: !validatePhone(formData.phone) ? 'This field is invalid' : '',
+    birthDate: !formData.birthDate ? 'This field is invalid' : ''
+  };
+
+  setErrors(newErrors);
+
+  if (!newErrors.name && !newErrors.email && !newErrors.phone && !newErrors.birthDate) {
+    fetch('https://script.google.com/macros/s/AKfycbyh-BKQPAw2uoL5RjvUYGbAtcZKMDiqRsWvD9fbONyXtqsMMc7sBNDvFnTzZgYPY3c/exec', {
+      method: 'POST',
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        birthDate: formData.birthDate?.toLocaleDateString('en-KE'),
+        whyJoin: formData.whyJoin,
+        skills: formData.skills,
+        experience: formData.experience
+      })
+    })
+    .then(() => {
+      setSubmitted(true);
+      setTimeout(() => navigate('/'), 3000);
+    })
+    .catch(() => {
+      setSubmitted(true);
+      setTimeout(() => navigate('/'), 3000);
+    });
+  }
+};
       setTimeout(() => {
         navigate('/');
       }, 3000);
