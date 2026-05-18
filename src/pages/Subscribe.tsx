@@ -89,7 +89,19 @@ export default function Subscribe() {
     e.preventDefault();
     if (validate()) {
       setSubmitted(true);
-      // In a real app, send data to server here
+     fetch('https://script.google.com/macros/s/AKfycby2o7plRd1ocCBxzxPCpm9OurMRQWUFb14Ui1noNRonnlFO0a3j2Taf7dGZlM8XiJfv/exec', {
+  method: 'POST',
+  body: JSON.stringify({
+    firstName: formData.firstName,
+    lastName: formData.lastName,
+    email: formData.email,
+    country: formData.country,
+    role: formData.role,
+    preferences: preferences
+  })
+}).finally(() => {
+  setSubmitted(true);
+});
     }
   };
 
