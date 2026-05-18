@@ -117,7 +117,7 @@ export default function Volunteer() {
   setErrors(newErrors);
 
   if (!newErrors.name && !newErrors.email && !newErrors.phone && !newErrors.birthDate) {
-    fetch('https://script.google.com/macros/s/AKfycbzYO7PdOL92bD-lUeGeKd96uhCfFfzvGCsJ-IM1Z-h7xUY9Pl7xP10giYJlVd2ry_Z7/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbxt-0Y6SotMDdp1jCN5FAaAL7QEtNbjSqWmJm27Slr_BqeT_Nic6teKSiRv5Mx9RLbk/exec', {
       method: 'POST',
       body: JSON.stringify({
         name: formData.name,
