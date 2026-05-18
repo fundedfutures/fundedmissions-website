@@ -135,13 +135,13 @@ export default function Volunteer() {
     })
     .catch(() => {
       setSubmitted(true);
-      setTimeout(() => navigate('/'), 3000);
+      setTimeout(() => navigate('/'), 5000);
     });
   }
 };
       setTimeout(() => {
         navigate('/');
-      }, 3000);
+      }, 5000);
     }
   };
 
