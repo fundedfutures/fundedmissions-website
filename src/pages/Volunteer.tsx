@@ -93,18 +93,7 @@ export default function Volunteer() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const newErrors = {
-      name: formData.name.trim() === '' ? 'This field is invalid' : '',
-      email: !validateEmail(formData.email) ? 'This field is invalid' : '',
-      phone: !validatePhone(formData.phone) ? 'This field is invalid' : '',
-      birthDate: !formData.birthDate ? 'This field is invalid' : ''
-    };
-
-    setErrors(newErrors);
-
-    if (!newErrors.name && !newErrors.email && !newErrors.phone && !newErrors.birthDate) {
-      setSubmitted(true);
-     const handleSubmit = (e: React.FormEvent) => {
+const handleSubmit = (e: React.FormEvent) => {
   e.preventDefault();
   
   const newErrors = {
@@ -131,7 +120,7 @@ export default function Volunteer() {
     })
     .then(() => {
       setSubmitted(true);
-      setTimeout(() => navigate('/'), 3000);
+      setTimeout(() => navigate('/'), 5000);
     })
     .catch(() => {
       setSubmitted(true);
@@ -139,12 +128,6 @@ export default function Volunteer() {
     });
   }
 };
-      setTimeout(() => {
-        navigate('/');
-      }, 5000);
-    }
-  };
-
   if (submitted) {
     return (
       <div className="min-h-screen bg-snow flex items-center justify-center p-6">
