@@ -90,9 +90,6 @@ export default function Volunteer() {
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    
 const handleSubmit = (e: React.FormEvent) => {
   e.preventDefault();
   
@@ -128,23 +125,6 @@ const handleSubmit = (e: React.FormEvent) => {
     });
   }
 };
-  if (submitted) {
-    return (
-      <div className="min-h-screen bg-snow flex items-center justify-center p-6">
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          className="bg-white p-12 rounded-[2rem] text-center max-w-md border border-gray-100"
-        >
-          <div className="w-20 h-20 bg-forest-green/10 rounded-full flex items-center justify-center text-forest-green mx-auto mb-6">
-            <CheckCircle size={40} />
-          </div>
-          <h2 className="text-3xl font-display font-bold mb-4 text-deep-slate">Application Received!</h2>
-          <p className="text-muted-text">Thank you for your interest in volunteering with FundED Futures. We'll be in touch soon.</p>
-        </motion.div>
-      </div>
-    );
-  }
 
   return (
     <div className="min-h-screen bg-snow text-deep-slate font-body">
